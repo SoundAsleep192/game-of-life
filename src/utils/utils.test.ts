@@ -4,7 +4,7 @@ import { generateField } from "./generateField";
 
 describe('countAlive', () => {
     it('should return all the alive cells on the field', () => {
-        expect(countAlive(mockField)).toEqual(8);
+        expect(countAlive(mockField)).toEqual(5);
         expect(countAlive([])).toEqual(0);
     })
 });
