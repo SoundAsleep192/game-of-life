@@ -28,9 +28,9 @@ function drawField(field: number[][], svg?: Selection<SVGSVGElement, unknown, HT
   .attr('width', 500)
   .attr('height', 500);
 
-let localVar = local<number>();
+  let localVar = local<number>();
 
-newSvg
+  newSvg
   .selectAll('g')
   .data(field)
   .enter()
